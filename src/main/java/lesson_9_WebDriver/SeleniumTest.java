@@ -17,9 +17,9 @@ public class SeleniumTest {
         driver.get("https://www.google.com/");
         WebElement element = driver.findElement(By.xpath("//input[@title = 'Пошук']"));
         element.sendKeys("жізньболь");
-        //element.sendKeys(Keys.RETURN);
-        WebElement element1 = driver.findElement(By.xpath("//div[@class='aajZCb']//input[@value = 'Пошук Google']"));
-        element1.click();
+        element.sendKeys(Keys.RETURN);
+//        WebElement element1 = driver.findElement(By.xpath("//div[@class='aajZCb']//input[@value = 'Пошук Google']"));
+//        element1.click();
 
         By yahooSearchInput = By.xpath("//input[@id='uh-search-box']");
         By yahooSearchInput1 = By.id("uh-search-box");
