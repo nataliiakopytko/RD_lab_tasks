@@ -6,7 +6,7 @@ import org.joda.time.format.DateTimeFormat;
 
 import java.util.Locale;
 
-public class Test {
+public class Test{
     public void convertData(String template){
         DateTime dateTime = DateTime.parse(template, DateTimeFormat.forPattern("yyyy-MM-dd"));
         System.out.println("Data before conversion: " + template);
@@ -39,7 +39,6 @@ public class Test {
             case 1:
                 System.out.println(date1 + " is greater than " + date2);
                 break;
-
             default:
                 break;
         }

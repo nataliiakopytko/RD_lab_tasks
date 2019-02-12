@@ -1,14 +1,13 @@
-package lesson_9_WebDriver;
+package lesson_10_WebDriver_login;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class SeleniumTest {
+public class Login {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver","drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
