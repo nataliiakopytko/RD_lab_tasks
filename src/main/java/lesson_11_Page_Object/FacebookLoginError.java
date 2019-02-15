@@ -2,6 +2,7 @@ package lesson_11_Page_Object;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+// test comment to be deleted
 
 public class FacebookLoginError {
     private WebDriver driver;
