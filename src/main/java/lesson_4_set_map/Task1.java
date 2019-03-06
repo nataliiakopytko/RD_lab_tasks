@@ -22,5 +22,8 @@ public class Task1 {
         System.out.println(" ");
 
         company.checkGroup("1PI-17m");
+        System.out.println(" ");
+
+        company.sortStudentsWithStream();
     }
 }

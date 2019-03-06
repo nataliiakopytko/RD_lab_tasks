@@ -25,7 +25,7 @@ public class Task {
 
         Google google = new Google(getDriver());
 
-        google.searchText("Facebook");
+        google.searchText("Google translate");
 
         google.getFirstLink().click();
 

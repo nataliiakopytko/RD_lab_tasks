@@ -11,8 +11,8 @@ public class Main {
 
         // Task 2:
 
-        Task2 task2 = new Task2();
-        task2.task2("Дуже красіве речення");
+//        Task2 task2 = new Task2();
+//        task2.task2("Дуже красіве речення");
     }
 
 }
